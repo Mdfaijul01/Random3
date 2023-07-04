@@ -228,32 +228,7 @@ def admin():
 		admin()
 	if bal =='0':
 		Main()
-def hoga_check():
-  uuid =  str(os.geteuid()) + str(os.getlogin()) 
-  id = "AdriYan-x0x0x" + "|".join(uuid)
-  os.system("clear")
-  print(logo)
-  print("\033[38;5;46m  ❥▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃❦")
-  
-  print("\x1b[38;5;46m  ➠  𝐘𝐎𝐔𝐑 𝐊𝐄𝐘 𝐈𝐒\033[38;5;46m : "+id) 
-  try: 
-    httpCaht = requests.get("https://github.com/Adriyan404/Aprov.txt/blob/main/Aprov3").text 
-    if id in httpCaht: 
-      print("\x1b[1;96m  ➠   𝐘𝐎𝐔𝐑 𝐊𝐄𝐘 𝐒𝐓𝐀𝐓𝐔𝐒: 𝐀𝐂𝐓𝐈𝐕𝐄  \033[97;1m  ✔ ") 
-      msg = str(os.geteuid()) 
-      time.sleep(0.3) 
-      pass 
-    else: 
-      print("\x1b[38;5;248m  ➠  𝐘𝐎𝐔𝐑 𝐊𝐄𝐘 𝐈𝐒 𝐍𝐎𝐓 𝐀𝐂𝐓𝐈𝐕𝐄\33[97;1m ✘") 
-      print("\x1b[38;5;208m  ➠  𝐂𝐎𝐏𝐘 𝐘𝐎𝐔𝐑 𝐊𝐄𝐘 𝐒𝐄𝐍𝐓 𝐀𝐔𝐓𝐇𝐎𝐑") 
-      time.sleep(1) 
-      sys.exit() 
-  except: 
-    sys.exit() 
-    if name == '__main__': 
-     print(logo) 
-     hoga_check()
-hoga_check()	
+	
 def x():
 	user=[]
 	os.system('clear')
